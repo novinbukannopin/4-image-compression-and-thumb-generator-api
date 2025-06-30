@@ -1,0 +1,23 @@
+# Ignore node_modules
+node_modules
+
+# Ignore build output
+.next
+
+# Ignore coverage
+coverage
+
+# Ignore logs
+# Ignore git stuff
+.git
+.gitignore
+
+# Ignore public assets
+public
+
+# Ignore generated types (kalau pakai GraphQL Codegen atau Prisma)
+prisma/migrations
+
+# Ignore lock files (optional)
+package-lock.json
+pnpm-lock.yaml
