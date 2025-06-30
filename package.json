@@ -1,6 +1,20 @@
 {
   "name": "nextjs-boosted-starter",
-  "version": "0.1.0",
+  "description": "A modern Next.js starter template with TypeScript, pnpm, Tailwind CSS, ESLint, Prettier, Husky, and Docker support.",
+  "author": "Novin Ardian Yulianto",
+  "license": "MIT",
+  "keywords": [
+    "nextjs",
+    "starter",
+    "typescript",
+    "pnpm",
+    "tailwind",
+    "eslint",
+    "prettier",
+    "husky",
+    "docker"
+  ],
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
