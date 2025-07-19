@@ -139,7 +139,7 @@ export default function FormUpload() {
         <div>
           <label>After</label>
           <canvas className="canvas" ref={canvasRef} />
-          {afterSize && <p>{afterSize} bytes</p>}
+          {afterSize > 0 && <p>{afterSize} bytes</p>}
         </div>
 
         <div>

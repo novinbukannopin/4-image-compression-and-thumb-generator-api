@@ -1,6 +1,4 @@
-import Image from 'next/image';
 import FormUpload from '@/components/ui/form-upload';
-import { FileUpload } from '@/components/ui/dnd-image-upload';
 
 export default function Home() {
   return (
@@ -9,7 +7,6 @@ export default function Home() {
         <h1 className="text-4xl font-bold text-center mb-8">
           Welcome to the Image Compression API
         </h1>
-        {/*<FormUpload />*/}
         <FormUpload />
       </main>
     </div>
